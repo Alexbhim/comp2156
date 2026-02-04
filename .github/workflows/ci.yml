@@ -1,4 +1,4 @@
-name: CI
+name: CI - Comp 2156 Dev Ops Lab Workflow
 on:
   push:
     branches: [ "main" ]
@@ -19,3 +19,4 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+        
